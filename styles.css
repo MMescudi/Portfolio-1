@@ -1,10 +1,10 @@
 :root {
   --btn-padding: 20px 20px;
   --btn-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  --btn-border: 1px solid #d4c2ad;
+  --btn-border: 1px solid #d7a184;
   --btn-radius: 4px;
   --btn-font-size: 20px;
-  --btn-backgrround: white;
+  --btn-backgrround: #d7a184;
 
   --secondary-btn-padding: 5px 10px;
   --secondary-btn-backgorund: #d7a184;
@@ -17,6 +17,7 @@ body {
   margin: 60px auto;
   max-width: 800px;
   font-family: arial;
+  background-color: #66796b;
 }
 
 h2 {
@@ -46,7 +47,7 @@ h3 {
 .about-btn:hover,
 .contact-btn:hover {
   cursor: pointer;
-  background-color: #d7a184;
+  background-color: #d4c2ad;
   transition: ease-in-out 220ms;
   transform: scale(1.1);
 }
